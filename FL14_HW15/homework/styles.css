@@ -1,0 +1,166 @@
+/* START: Task 1 Styles */
+* {
+    margin: auto;
+}
+
+.table {
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+.wrapper {
+    margin-top: 10%;
+}
+
+.notification {
+    text-align: center;
+    width: 300px;
+    height: 70px;
+}
+
+.input {
+    width: 310px;
+    height: 30px;
+    display: flex;
+    margin-bottom: 20%;
+}
+
+.inputNumber {
+    width: 300px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.sendButton {
+    height: 35px;
+    margin-left: 5px;
+}
+
+.validInput {
+    border: 1px solid rgb(79, 192, 79);
+    width: 300px;
+    height: 30px;
+}
+
+.invalidInput {
+    border: 1px solid rgb(248, 96, 96);
+    width: 300px;
+    height: 30px;
+}
+
+.validNotification {
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(79, 192, 79);
+    width: 310px;
+    height: 70px;
+    margin-bottom: 5px;
+}
+
+.invalidNotification {
+    color: whitesmoke;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgb(248, 96, 96);
+    width: 310px;
+    height: 70px;
+    margin-bottom: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+#task3 {
+    margin-bottom: 200px;
+}
+
+.court {
+    margin-top: 5%;
+    width: 600px;
+    height: 330px;
+    position: relative;
+    background-image: url(assets/court.png);
+    background-size: cover;
+}
+
+.ball {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 48%;
+    top: 45%;
+    background-image: url(assets/ball.png);
+    background-size: cover;
+    transition: all 1s;
+}
+
+.scores {
+    width: 800px;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.winA {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 26%;    
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    opacity: 0;
+}
+
+.winB {
+    position: absolute;
+    margin-left: 95%;
+    margin-top: 26%;    
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    opacity: 0;
+}
+
+.teamWin {
+    margin-left: 45%;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-blue {
+    color: blue;
+}
+/* END: Task 3 Styles */

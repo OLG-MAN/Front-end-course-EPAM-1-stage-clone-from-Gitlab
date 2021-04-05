@@ -1,0 +1,120 @@
+.tm-bg-color-primary {
+    background-color:#76cdd8;  
+}
+
+.tm-text-color-primary {
+    color: #666666;
+}
+
+.tm-text-color-primary {
+    color: #76cdd8;
+}
+
+section.tm-section.tm-card:hover {
+    color: #76cdd8;
+}
+
+.tm-card:nth-child(odd):hover > div:last-child:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    margin-left: 455px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 100px 0;
+    border-color: transparent #76cdd8 transparent transparent;
+}
+
+.tm-card:nth-child(even):hover > div:last-child:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: -15px;
+    border-style: solid;
+    border-width: 100px 100px 0 0;
+    border-color: #76cdd8 transparent transparent transparent;
+}
+
+.tm-col-md-reverse {
+    flex-direction: row-reverse;
+}
+
+.btn-primary {
+    background:#019999;
+    border-color:#019999;
+}
+
+.btn-primary:hover {
+    background-color: rgb(118, 205, 216);
+    border-color: rgb(118, 205, 216);
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+
+section.row.tm-section.tm-mb-30.tm-card {
+    margin-bottom: 50px;
+}
+
+section.row.tm-section.tm-mb-30 {
+    margin-bottom: 50px;
+}
+
+.tm-pricing-header {
+    background:#019999;
+    border-color:#019999;
+}
+
+.tm-pricing-table {
+    border-color: #019999;
+}
+
+.tm-pricing-table:hover {
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.tm-pricing-table:hover .btn-secondary {
+    background:#24d4d4;
+}
+
+.tm-pricing-table:hover .tm-pricing-discount{
+    
+    display: block;
+}
+
+.tm-pricing-discount__star {
+    color:red;
+}
+
+.btn-secondary {
+    background:#019999;
+    border-color:#019999;
+}
+
+.tm-form-header {
+    background: #24d4d4;
+}
+
+.tm-contact-form.tm-container-inner {
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+.form-control:focus {
+    border-color: #24d4d4; 
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.btn.btn-primary:hover {
+    background-color: rgb(118, 205, 216);
+}
+
+.tm-form-footer {
+    background:#019999;
+    position: static;
+}

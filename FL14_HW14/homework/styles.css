@@ -1,0 +1,56 @@
+.root {
+    margin: 0 auto;
+    margin-top: 10%;
+    font-size: 18px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #888888;
+}
+
+ul.app {
+    margin: 0;
+    padding: 20px;
+}
+
+ul.app ul {
+    padding: 0 0 0 30px;
+}
+
+li {
+    list-style: none;
+    font-size: 1em;
+    color: #000;
+    padding: 10px 5px;
+    margin: 0 -5px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    text-overflow: ellipsis;
+}
+
+li::before {
+    font-family: "Material Icons";
+    content: "folder";
+    color: rgb(255, 222, 34);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0px;
+    width: 24px;
+    text-align: center;
+    line-height: 12px;
+}
+
+li.file::before {
+    font-family: "Material Icons";
+    content: "notes";
+    color: silver;
+    margin-right: 0px;
+}
+
+ul.app ul {
+    display: none;
+}
+
